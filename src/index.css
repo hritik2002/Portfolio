@@ -251,6 +251,8 @@ code {
   color: blue !important;
 }
 
+
+
 /* Projects */
 
 .Project{
@@ -593,4 +595,12 @@ input:hover , textarea:hover{
 }
 .button button{
   font-size: 0.9rem;
+}
+
+/* Media Query max-width 900px */
+@media (max-width:900px){
+  body{
+    padding-left: 50% !important;
+    background: green !important;
+  }
 }

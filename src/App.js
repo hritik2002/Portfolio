@@ -9,6 +9,15 @@ import Resume from './components/Resume'
 import Contact from './components/Contact'
 
 function App() {
+
+  const random = ()=>{
+    return(
+      <div className="Body">
+        <p><strong>Oops! Site failed to load</strong></p>
+      </div>
+    )
+  }
+
   return (
     <>
       <Nav />
@@ -17,6 +26,7 @@ function App() {
         <Route exact path="/project" component={Project}/>
         <Route exact path="/resume" component={Resume}/>
         <Route exact path="/contact" component={Contact}/>
+        <Route component={random}/>
 
       </Switch>
       <Footer />
