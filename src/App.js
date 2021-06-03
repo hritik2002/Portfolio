@@ -22,12 +22,11 @@ function App() {
     <>
       <Nav />
       <Switch>
-        <Route exact path="/" component={Body}/>
+        <Route exact path="/Body" component={Body}/>
         <Route exact path="/project" component={Project}/>
         <Route exact path="/resume" component={Resume}/>
         <Route exact path="/contact" component={Contact}/>
-        <Route component={random}/>
-
+        <Route component={Body}/>
       </Switch>
       <Footer />
     </>
