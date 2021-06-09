@@ -75,9 +75,9 @@ code {
 /* Body  */
 
 .Body{
-  padding-top: 20vh;
+  padding-top: 18vh;
   display: flex;
-  height: 95vh;
+  height: 100vh;
   justify-content: space-between;
 }
 .Body1{
@@ -90,6 +90,7 @@ code {
 }
 .Intro{
   background: #f0e6d4;
+  margin-bottom: 20px;
   height: 520px;
   width: 380px;
   margin-top: 80px;
@@ -171,6 +172,7 @@ code {
   border-radius: 20px;
   margin-right: 10px;
   margin-left: 0px;
+  margin-top: 10px;
   font-weight: 600;
   cursor: pointer;
 }
@@ -600,7 +602,34 @@ input:hover , textarea:hover{
 /* Media Query max-width 900px */
 @media (max-width:900px){
   body{
-    padding-left: 50% !important;
-    background: green !important;
+    background: #fff !important;
+  }
+  .Body2{
+    justify-content: center;
+    align-items: center;
+  }
+  .Footer{
+    padding-left: 50%;
+  }
+}
+@media (max-width:665px){
+  .Body2{
+    justify-content: center;
+    align-items: center;
+  }
+  .Footer{
+    padding-left: 40%;
+  }
+}
+@media (max-width:530px){
+  .Body2{
+    justify-content: center;
+    align-items: center;
+  }
+  .Body2>h1{
+    font-size: 86px;
+  }
+  .Footer{
+    padding-left: 30%;
   }
 }
