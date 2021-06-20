@@ -5,7 +5,7 @@ const Body1 = () => {
     return (
         <div className="Body1">
             <div className="fixed"></div>
-            <div className="Intro" >
+                <div className="Intro" >
                 <img src={Profile} />
                 <h2>Hritik Sharma </h2>
                 <div className="line"></div>

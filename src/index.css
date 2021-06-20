@@ -175,6 +175,7 @@ code {
   margin-top: 10px;
   font-weight: 600;
   cursor: pointer;
+  transition: all 600ms;
 }
 .btn,.btn1{
   background-color: blue;
@@ -342,6 +343,7 @@ code {
   max-height: 40px;
   background: rgb(15, 88, 245);
   border-color:rgb(15, 88, 245) ;
+  transition: all 500ms;
 }
 .Descr h4, .Tech h4{
   text-decoration: underline;

@@ -10,13 +10,7 @@ import Contact from './components/Contact'
 
 function App() {
 
-  const random = ()=>{
-    return(
-      <div className="Body">
-        <p><strong>Oops! Site failed to load</strong></p>
-      </div>
-    )
-  }
+ 
 
   return (
     <>
